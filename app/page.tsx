@@ -39,6 +39,7 @@ export default function Home() {
       </button>
       <div className={styles.frame}>
         {imageUrl && (
+          // eslint-disable-next-line @next/next/no-img-element -- 初学者への説明の簡単さを優先するため <Image /> はここでは使わない
           <img className={styles.img} src={imageUrl} alt="ランダムな猫の画像" />
         )}
       </div>

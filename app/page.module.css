@@ -8,6 +8,7 @@
   flex-direction: column;
   gap: 20px;
   background: #fff;
+  padding: 0 16px;
 }
 
 .button {
@@ -45,7 +46,8 @@
 }
 
 .frame {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   aspect-ratio: 1 / 1;
   box-sizing: border-box;
   border-radius: 8px;
